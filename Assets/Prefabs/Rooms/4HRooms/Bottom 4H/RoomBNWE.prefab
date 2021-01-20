@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2507104020904471058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2507104020904471059}
+  - component: {fileID: 2507104020904471056}
+  m_Layer: 0
+  m_Name: RoomBNWE
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2507104020904471059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2507104020904471058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2507104020904471056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2507104020904471058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453e92ed9ddbdfa4b9d2de3295a61f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tile:
+  - {fileID: 2302688892868523714, guid: 508f683c8d826f14a965772682cab04d, type: 3}
+  TrapTile: []
+  gridX: 20
+  gridZ: 20
+  gridY: 20
+  gridSpacingOffset: 1
+  gridOrigin: {x: 0, y: 0, z: 0}
+  DoorHeightStart: 9
+  DoorHeightEnd: 11
+  DoorWidthStart: 9
+  DoorWidthEnd: 11
+  TopExit: 0
+  BottomExit: 1
+  NorthWallExit: 1
+  SouthWallExit: 0
+  WestWallExit: 1
+  EastWallExit: 1
+  roomTesterOffset: 1
+  Testers: {fileID: 8658014048980337960, guid: 128a8be64657ec644bca45ab4e970f60, type: 3}
+  GameLight: {fileID: 5130781937153709013, guid: cc0a8f51f2af51c47a4191c834d265f1,
+    type: 3}
+  Hole: {fileID: 979906507559681841, guid: 6d0869747d1968540ac56c5ae7934bda, type: 3}
